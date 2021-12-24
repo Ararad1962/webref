@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      html {
+         height: 100%;
+      }
+
+      body {
+         background: url(https://webref.ru/assets/files/travolta.jpg);
+         background-size: cover;
+         background-position-x: 50%;
+         background-position-y: 50%;
+      }
+
+      .overlay {
+         position: absolute;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         background: rgba(0, 0, 0, 0.7);
+      }
+
+      .err404 {
+         color: aliceblue;
+         position: relative;
+         font-size: 8em;
+         text-align: center;
+         margin-top: 200px;
+         z-index: 2;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="err404">404</div>
+   <div class="overlay"></div>
+
+</body>
+
+</html>
