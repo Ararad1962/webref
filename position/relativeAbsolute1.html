@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Коктели</title>
+   <style>
+      body {
+         background: #fcfdf3;
+      }
+      figure {
+         display:inline-block;
+         position:relative;
+         padding: 12px;
+         margin: 0;
+         overflow: hidden;
+      }
+      figure::after, figure::before {
+         content: '';
+         position: absolute;
+         z-index: 2;
+         width: 70px;
+         height: 70px;
+         left: -40px;
+         bottom: -40px;
+         transform: rotate(45deg);
+         box-shadow: 0 0 10px rgba(0,0,0,.5);
+         outline: #c2b59d dashed 1px;
+         outline-offset: -3px;
+         background: #f7f6f2;*/
+      }
+      figure::after {
+         left: auto;
+         right: -40px;
+         top: -40px;
+      }
+      img {
+         display: block;
+         padding: 4px;
+         background: #d3b788;
+         border: 3px solid #84bb6e;
+      }
+      input {
+         width: 100px;
+         height: 100px;
+      }
+   </style>
+</head>
+<body>
+   <figure>
+      <img src="https://webref.ru/assets/files/cocktail.jpg" alt="Коктель1">
+   </figure>
+   <figure>
+      <img src="https://webref.ru/assets/files/cocktail-2.jpg" alt="Коктель2">
+   </figure>
+   <figure> <input type="button"></figure>
+</body>
+</html>
